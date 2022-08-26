@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-26T20:29:23 IST" name="Suite" finished-at="2022-08-26T20:29:44 IST" duration-ms="20556">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.verifyLogin()[pri:2, instance:test.LoginTest@6580cfdd]" name="verifyLogin" class="test.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.verifyLogin()[pri:2, instance:test.LoginTest@6580cfdd]" name="verifyLogin" class="test.LoginTest"/>
+        <method signature="LoginTest.verifyUrlOfPage()[pri:0, instance:test.LoginTest@6580cfdd]" name="verifyUrlOfPage" class="test.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-08-26T20:29:23 IST" name="Test" finished-at="2022-08-26T20:29:44 IST" duration-ms="20556">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.LoginTest@6580cfdd]" started-at="2022-08-26T20:29:23 IST" name="launchBrowser" finished-at="2022-08-26T20:29:30 IST" duration-ms="6738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="pageObjects()[pri:0, instance:test.LoginTest@6580cfdd]" started-at="2022-08-26T20:29:30 IST" name="pageObjects" finished-at="2022-08-26T20:29:30 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObjects -->
+        <test-method signature="verifyUrlOfPage()[pri:0, instance:test.LoginTest@6580cfdd]" started-at="2022-08-26T20:29:30 IST" name="verifyUrlOfPage" finished-at="2022-08-26T20:29:30 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrlOfPage -->
+        <test-method signature="verifyLoginPageIsDisplayed()[pri:1, instance:test.LoginTest@6580cfdd]" started-at="2022-08-26T20:29:30 IST" name="verifyLoginPageIsDisplayed" finished-at="2022-08-26T20:29:31 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageIsDisplayed -->
+        <test-method signature="verifyLogin()[pri:2, instance:test.LoginTest@6580cfdd]" started-at="2022-08-26T20:29:31 IST" name="verifyLogin" finished-at="2022-08-26T20:29:34 IST" duration-ms="3313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDownEnvirnment()[pri:0, instance:test.LoginTest@6580cfdd]" started-at="2022-08-26T20:29:34 IST" name="tearDownEnvirnment" finished-at="2022-08-26T20:29:34 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownEnvirnment -->
+      </class> <!-- test.LoginTest -->
+      <class name="test.PimTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.PimTest@7e0b85f9]" started-at="2022-08-26T20:29:34 IST" name="launchBrowser" finished-at="2022-08-26T20:29:40 IST" duration-ms="5647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="pageObjects()[pri:0, instance:test.PimTest@7e0b85f9]" started-at="2022-08-26T20:29:40 IST" name="pageObjects" finished-at="2022-08-26T20:29:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObjects -->
+        <test-method is-config="true" signature="login()[pri:0, instance:test.PimTest@7e0b85f9]" started-at="2022-08-26T20:29:40 IST" name="login" finished-at="2022-08-26T20:29:40 IST" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyPimPage()[pri:3, instance:test.PimTest@7e0b85f9]" started-at="2022-08-26T20:29:40 IST" name="verifyPimPage" finished-at="2022-08-26T20:29:44 IST" duration-ms="3131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPimPage -->
+        <test-method signature="verifyIdCheckBoxIsSelected()[pri:4, instance:test.PimTest@7e0b85f9]" started-at="2022-08-26T20:29:44 IST" name="verifyIdCheckBoxIsSelected" finished-at="2022-08-26T20:29:44 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIdCheckBoxIsSelected -->
+        <test-method is-config="true" signature="tearDownEnvirnment()[pri:0, instance:test.PimTest@7e0b85f9]" started-at="2022-08-26T20:29:44 IST" name="tearDownEnvirnment" finished-at="2022-08-26T20:29:44 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownEnvirnment -->
+      </class> <!-- test.PimTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
